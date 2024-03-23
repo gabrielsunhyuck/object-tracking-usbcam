@@ -14,6 +14,7 @@
 
 6. MOTOR  : 360 degree Continuous Rotation Servo Motor
 
+
 # References
 
 **1. Camera Launcher**
@@ -30,29 +31,43 @@ You can refer to following browser.
 
 You can utilize the example codes(C languages, Arduino) stored in this package.
 
+
 # How launch this argorithm?
     ros2 run usb_cam usb_cam_node_exe --ros-args --params-file/home/sun/ros2_ws/src/usb_cam-ros2/config/params_1.yaml
     ros2 launch camera_tracking camera_tracking_launch.py
 
-## Considerations !!
+
+## Considerations (process in detail)
 ---
-#### Step 1.
+#### Step 1. Modifying parameter(1)
 - You should modify the parameters of yalm file stored in camera package. [params_1.yaml]
 
 - Important information to look at in the yaml file is **video_device**, **frame_id**, and **camera_name**.
 ---
-#### Step 2.
+#### Step 2. Modifying parameter(2)
 - Then, you have to modify the parameters of node file stored in camera package. [usb_cam_node.cpp]
 
 - You should modify the information of **"camera name"**, **"frame_id"**
 ---
-#### Step 3.
-**Camera working**
+#### Step 3. Working Camera
 
     sudo chmod 777 /dev/videl*
     cd <your_workspace>
     source ~/<your_workspace>/install/setup.bash
     ros2 run usb_cam usb_cam_node_exe --ros-args --params-file/path/to/ros2_ws/src/usb_cam_config/params_1.yaml
+
+#### Step 4. Launching Argorithm
+
+have to open other terminal
+
+    cd <your_workspace>
+    source ~/<your_workspace>/install/setup.bash
+    ros2 launch camera_tracking camera_tracking.launch.py
+
+
+# Result
+
+
 
 
 
