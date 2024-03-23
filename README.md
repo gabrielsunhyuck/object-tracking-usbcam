@@ -67,7 +67,11 @@ have to open other terminal
 
 
 # Result
+<p align="center">
+<img src="![New-Project](https://github.com/gabrielsunhyuck/object-tracking-usbcam/assets/163500499/5e1ff32c-5733-4611-8e57-f06826adbed9)">
+</p>
 
+<p align="right
 
 
 
