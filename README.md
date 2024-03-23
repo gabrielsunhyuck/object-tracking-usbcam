@@ -34,7 +34,7 @@ You can utilize the example codes(C languages, Arduino) stored in this package.
     ros2 run usb_cam usb_cam_node_exe --ros-args --params-file/home/sun/ros2_ws/src/usb_cam-ros2/config/params_1.yaml
     ros2 launch camera_tracking camera_tracking_launch.py
 
-![image](https://github.com/gabrielsunhyuck/object-tracking-usbcam/assets/163500499/e969d7ad-a5ed-4a43-8968-625435805cdd) **!!**
+## ![image](https://github.com/gabrielsunhyuck/object-tracking-usbcam/assets/163500499/e969d7ad-a5ed-4a43-8968-625435805cdd) **!!**
 
 - You should modify the parameters of yalm file stored in camera package. [params_1.yaml]
 
