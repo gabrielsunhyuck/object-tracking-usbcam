@@ -51,6 +51,8 @@ You can utilize the example codes(C languages, Arduino) stored in this package.
 
     sudo chmod 777 /dev/video*
 
+  
+
 
 
 
