@@ -32,12 +32,13 @@ You can refer to following browser.
 You can utilize the example codes(C languages, Arduino) stored in this package.
 
 # Setting Arduino
-
-1. connecting Arduino DUE or other available boards to your main PC
-
-2. upload the code to Arduino connected with your main PC (CameraTracking_servo_control Location : home/<your_workspace>/src/Arduino/camera_tracking)
-
-3. Launch micro-ROS
+---
+connecting Arduino DUE or other available boards to your main PC
+---
+upload the code to Arduino connected with your main PC
+(Location : home/<your_workspace>/src/Arduino/camera_tracking)
+---
+Launch micro-ROS
 
     cd <your_workspace>
     source ~/<your_workspace>/install/setup.bash
