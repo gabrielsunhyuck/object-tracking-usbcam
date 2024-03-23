@@ -32,14 +32,14 @@ You can refer to following browser.
 You can utilize the example codes(C languages, Arduino) stored in this package.
 
 # Setting Arduino
----
-connecting Arduino DUE or other available boards to your main PC
----
-upload the code to Arduino connected with your main PC
-(Location : home/<your_workspace>/src/Arduino/camera_tracking)
----
-Launch micro-ROS
 
+1. connecting Arduino DUE or other available boards to your main PC
+
+2. upload the cod((Location : /home/<your_workspace>/src/Arduino/camera_tracking) to Arduino connected with your main PC
+
+3. Launch micro-ROS
+
+# How launch micro-ROS
     cd <your_workspace>
     source ~/<your_workspace>/install/setup.bash
     ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyACM0
