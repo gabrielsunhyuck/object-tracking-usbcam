@@ -48,6 +48,7 @@ You can utilize the example codes(C languages, Arduino) stored in this package.
 ---
 #### Step 3.
 **Camera working**
+
     sudo chmod 777 /dev/videl*
     cd <your_workspace>
     source ~/<your_workspace>/install/setup.bash
