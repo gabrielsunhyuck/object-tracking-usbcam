@@ -1,13 +1,10 @@
 # object-tracking-usbcam
 ### **You can track some objects by camera with servo motor.**
 
----
-Dependencies
+# Dependencies
 
 ros2 foxy
-
 Arduino DUE
-
 micro-ROS
 
 ---
