@@ -50,7 +50,7 @@ You can utilize the example codes(C languages, Arduino) stored in this package.
 
 
 ## Considerations (process in detail)
----
+
 ##### Step 1. Modifying parameter(1)
 - You should modify the parameters of yalm file stored in camera package. [params_1.yaml]
 
@@ -75,7 +75,6 @@ have to open other terminal
     cd <your_workspace>
     source ~/<your_workspace>/install/setup.bash
     ros2 launch camera_tracking camera_tracking.launch.py
----
 
 
 ## Result
