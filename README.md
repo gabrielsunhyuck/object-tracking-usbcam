@@ -47,8 +47,13 @@ You can utilize the example codes(C languages, Arduino) stored in this package.
 - You should modify the information of **"camera name"**, **"frame_id"**
 ---
 #### Step 3.
-- You can grant permission to the camera port with the command below.
--    sudo chmod 777 /dev/video*
+- You can grant permission to the camera port with the command "sudo chmod 777".
+    sudo chmod 777 /dev/video*
+
+
+
+
+
 
   
 
