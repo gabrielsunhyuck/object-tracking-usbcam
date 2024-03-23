@@ -15,19 +15,19 @@
 
 # References
 
-1. Camera Launcher
+**1. Camera Launcher**
 
-You can refer to following browser.
+    You can refer to following browser.
 
-**<https://github.com/ros-drivers/usb_cam>**
+    **<https://github.com/ros-drivers/usb_cam>**
 
-2. micro-ROS package
+**2. micro-ROS package**
 
-You can refer to following browser.
+    You can refer to following browser.
 
-**<https://github.com/micro-ROS/micro_ros_arduino>**
+    **<https://github.com/micro-ROS/micro_ros_arduino>**
 
-You can utilize the example codes(C languages, Arduino) stored in this package.
+    You can utilize the example codes(C languages, Arduino) stored in this package.
 
 # How launch this argorithm?
     ros2 run usb_cam usb_cam_node_exe --ros-args --params-file/home/sun/ros2_ws/src/usb_cam-ros2/config/params_1.yaml
