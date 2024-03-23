@@ -47,8 +47,11 @@ You can utilize the example codes(C languages, Arduino) stored in this package.
 - You should modify the information of **"camera name"**, **"frame_id"**
 ---
 #### Step 3.
-- You can grant permission to the camera port with the command "sudo chmod 777".
-    sudo chmod 777 /dev/video*
+
+    sudo chmod 777 /dev/videl*
+    cd <your_workspace>
+    source ~/<your_workspace>/install/setup.bash
+    ros2 run usb_cam usb_cam_node_exe --ros-args --params-file/path/to/ros2_ws/src/usb_cam_config/params_1.yaml
 
 
 
