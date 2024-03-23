@@ -3,7 +3,6 @@
 
 # Dependencies
 
----
 
 ros2 foxy
 
