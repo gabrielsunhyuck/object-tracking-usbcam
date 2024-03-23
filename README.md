@@ -48,8 +48,7 @@ You can utilize the example codes(C languages, Arduino) stored in this package.
 ---
 #### Step 3.
 - You can grant permission to the camera port with the command below.
-
-    sudo chmod 777 /dev/video*
+-    sudo chmod 777 /dev/video*
 
   
 
