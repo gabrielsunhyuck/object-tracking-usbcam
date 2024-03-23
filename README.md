@@ -55,7 +55,7 @@ You can utilize the example codes(C languages, Arduino) stored in this package.
     cd <your_workspace>
     source ~/<your_workspace>/install/setup.bash
     ros2 run usb_cam usb_cam_node_exe --ros-args --params-file/path/to/ros2_ws/src/usb_cam_config/params_1.yaml
-
+---
 #### Step 4. Launching Argorithm
 
 have to open other terminal
