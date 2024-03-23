@@ -4,13 +4,12 @@
 # Dependencies
 
 
-ros2 foxy
+1. ros2 foxy
 
-Arduino DUE
+2. Arduino DUE
 
-micro-ROS
+3. micro-ROS
 
----
 
 **CAMERA : Logitech C920 HD PRO**
 **MOTOR  : 360 degree Continuous Rotation Servo Motor**
