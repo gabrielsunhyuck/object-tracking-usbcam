@@ -53,11 +53,14 @@ You can utilize the example codes(C languages, Arduino) stored in this package.
 ---
 ##### Step 1. Modifying parameter(1)
 - You should modify the parameters of yalm file stored in camera package. [params_1.yaml]
+ ![image](https://github.com/gabrielsunhyuck/object-tracking-usbcam/assets/163500499/2ce6474d-7b8a-4027-a0d6-9761a12e763e) 
 
 - Important information to look at in the yaml file is **video_device**, **frame_id**, and **camera_name**.
 ---
 ##### Step 2. Modifying parameter(2)
 - Then, you have to modify the parameters of node file stored in camera package. [usb_cam_node.cpp]
+![image](https://github.com/gabrielsunhyuck/object-tracking-usbcam/assets/163500499/5cf8a66d-4daa-4f5f-96aa-993ca76d8d74)
+
 
 - You should modify the information of **"camera name"**, **"frame_id"**
 ---
