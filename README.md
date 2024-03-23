@@ -3,8 +3,12 @@
 
 # Dependencies
 
+---
+
 ros2 foxy
+
 Arduino DUE
+
 micro-ROS
 
 ---
