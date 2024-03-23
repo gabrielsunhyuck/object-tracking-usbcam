@@ -36,14 +36,17 @@ You can utilize the example codes(C languages, Arduino) stored in this package.
 
 ## Considerations !!
 ---
+#### Step 1.
 - You should modify the parameters of yalm file stored in camera package. [params_1.yaml]
 
 - Important information to look at in the yaml file is **video_device**, **frame_id**, and **camera_name**.
 ---
+#### Step 2.
 - Then, you have to modify the parameters of node file stored in camera package. [usb_cam_node.cpp]
 
 - You should modify the information of **"camera name"**, **"frame_id"**
 ---
+#### Step 3.
 - You can grant permission to the camera port with the command below.
 
     sudo chmod 777 /dev/video*
