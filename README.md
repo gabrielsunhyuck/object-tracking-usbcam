@@ -1,4 +1,4 @@
-# ![image](https://github.com/gabrielsunhyuck/object-tracking-usbcam/assets/163500499/2d905299-a556-482f-b833-5aa2f788e0c9) object-tracking-usbcam
+# ![image](https://github.com/gabrielsunhyuck/object-tracking-usbcam/assets/163500499/2d905299-a556-482f-b833-5aa2f788e0c9){: width="100 height="100} object-tracking-usbcam
 
 #### **You can track some objects by camera with servo motor.**
 
