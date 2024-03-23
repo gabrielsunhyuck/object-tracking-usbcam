@@ -63,6 +63,7 @@ have to open other terminal
     cd <your_workspace>
     source ~/<your_workspace>/install/setup.bash
     ros2 launch camera_tracking camera_tracking.launch.py
+---
 
 
 # Result
