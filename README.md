@@ -35,7 +35,7 @@ You can utilize the example codes(C languages, Arduino) stored in this package.
 
 1. connecting Arduino DUE or other available boards to your main PC
 
-2. upload the code((Location : /home/<your_workspace>/src/Arduino/camera_tracking) to Arduino connected with your main PC
+2. upload the code((Location : /home/<your_workspace>/src/Arduino/camera_tracking/CameraTracking_servo_control4.ino) to Arduino connected with your main PC
 
 3. Launch micro-ROS
 
